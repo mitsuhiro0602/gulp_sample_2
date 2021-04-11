@@ -1,0 +1,90 @@
+{
+  "name": "gulp_sample_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production gulp serve",
+    "dev": "gulp serve"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.8.6",
+    "babel-eslint": "^10.1.0",
+    "browser-sync": "^2.26.14",
+    "cross-env": "^7.0.3",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslit": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-convert-encoding": "^2.1.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "rename": "^1.0.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "gulp-babel": "^8.0.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-postcss": "^9.0.0"
+  },
+  "gulp-config": {
+    "sizes": [
+      [
+        16,
+        16
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        57,
+        57
+      ],
+      [
+        76,
+        76
+      ],
+      [
+        120,
+        120
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        152,
+        152
+      ],
+      [
+        167,
+        167
+      ],
+      [
+        180,
+        180
+      ],
+      [
+        192,
+        192
+      ],
+      [
+        512,
+        512
+      ]
+    ]
+  }
+}
